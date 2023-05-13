@@ -15,7 +15,9 @@ variables:
   containerRegistry: 'amrregistery.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-
+  
+  webRepository: 'web'
+  
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
